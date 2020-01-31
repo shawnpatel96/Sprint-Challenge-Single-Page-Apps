@@ -16,8 +16,8 @@ export default function App() {
 
       <Header />
       <Route exact path="/" component={WelcomePage}/>
-      <Route exact path ="/" component={CharacterList}/>
-      <Route exact path ="/" component={SearchForm}/>
+      <Route exact path ="/characters" component={CharacterList}/>
+      <Route exact path ="/search" component={SearchForm}/>
     </main>
     </Router>
   );
